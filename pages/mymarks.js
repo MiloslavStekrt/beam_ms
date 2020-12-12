@@ -3,7 +3,7 @@ import Header from './include/header.js';
 
 const sidebar = () => {
     return(
-        <section class="sidebar">
+        <section className="sidebar">
             <h1>Hodiny</h1>
             <p><a href="">Cesky jazyk</a></p>
             <p><a href="">Matika</a></p>
@@ -13,11 +13,11 @@ const sidebar = () => {
 const statistic = () => {
     return(
         <section className="statistic">
-            <article class="student">
+            <article className="student">
                 <h1>Subject</h1><h1>3.54</h1>
             </article>
-            <article class="exams">
-                <span class="first-span">
+            <article className="exams">
+                <span className="first-span">
                     <p>jmeno testu</p>
                     <p>znamka</p>
                 </span>
@@ -29,7 +29,7 @@ const statistic = () => {
                     <p>Po - Fast test</p>
                     <p>3</p>
                 </span>
-                <span class="last-span">
+                <span className="last-span">
                     <p>Po - Fast test</p>
                     <p>3</p>
                 </span>
