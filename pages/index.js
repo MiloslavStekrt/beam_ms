@@ -1,5 +1,5 @@
-import Header from './include/header.js';
-import Footer from './include/Footer.js';
+import Header from './../include/header.js';
+import Footer from './../include/Footer.js';
 
 const uvod = () => {
   return(
