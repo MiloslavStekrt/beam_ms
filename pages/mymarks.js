@@ -1,5 +1,4 @@
-import React from 'react';
-import Header from './include/header.js';
+import Header from './../include/header.js';
 
 const sidebar = () => {
     return(
@@ -101,7 +100,7 @@ const mymarks = () => {
                     }
                     .first-span{
                     border-bottom: 2px solid black !important;
-                    } 
+                    }
                 `}
             </style>
         </>

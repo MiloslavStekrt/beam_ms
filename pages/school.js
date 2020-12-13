@@ -1,5 +1,5 @@
-import Header from './include/header';
-import Footer from './include/Footer';
+import Header from './../include/header';
+import Footer from './../include/Footer';
 
 const myschool = () => {
   return (
@@ -81,16 +81,16 @@ const myschool = () => {
       <Header role={1} title="BEAM - Managment System" />
       <hr/>
       <main>
-        <section class="details">
+        <section className="details">
           <h1>Ratanda serios corporation</h1>
           <span>
             <p> </p>
-            <p class="allClasses">All classes</p>
+            <p className="allClasses">All classes</p>
           </span>
         </section>
-        <section class="schedule">
+        <section className="schedule">
           <h2>You have today</h2>
-          <article class="lessons">
+          <article className="lessons">
             <p>M</p>
             <p>M</p>
             <p>AJ</p>
@@ -99,13 +99,13 @@ const myschool = () => {
             <p> </p>
           </article>
         </section>
-        <section class="activities">
-          <article class="exams">
+        <section className="activities">
+          <article className="exams">
           <h1>Exams</h1>
           <p>St - <a href="#"><strong>CJ</strong> </a> - Opakovani</p>
           <p>next Pa - <a href="#"><strong>CJ</strong> </a> - oprava Opakovani</p>
           </article>
-          <article class="homeworks">
+          <article className="homeworks">
           <h1>Homeworks</h1>
           <p>Ut - <a href="#"><strong>CJ</strong> </a> - 192/13 c</p>
           <p>Ct - <a href="#"><strong>M</strong> </a> - 28/31 ucebnice</p>
