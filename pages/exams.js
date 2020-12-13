@@ -1,6 +1,4 @@
-import Head from 'next/head';
-import Header from './include/header.js';
-import Footer from './include/Footer.js';
+import Header from './../include/header.js';
 
 const mainFlex = {
     display: "flex"
@@ -63,7 +61,6 @@ const control = () => {
         </section>
     )
 }
-
 
 const exams = () => {
     return (
